@@ -11,27 +11,41 @@ Though the above dashboard is just showing the newest articles, you could imagin
 
 In order to determine which articles to show to each user,I performed a study of the data available on the IBM Watson Studio platform. You can create your own account to become a part of their community, and get a better understanding of their data by creating an account on the platform [here](https://dataplatform.cloud.ibm.com/).
 
-Github link:
+Github link: https://github.com/kushadhvaryu/Recommendations-with-IBM
 
 ## Table of Contents 
 
-1. [Project Motivation](#project-motivation)
-2. [Libraries used:](#libraries-used-)
-3. [The Process](#the-process)
-4. [Acknowledgements](#acknowledgements)
+1. [Project Motivation](#project)
+2. [Installations](#installations)
+3. [File Descriptions](#file)
+4. [Process](#process)
+5. [Acknowledgements](#acknowledgements)
 
 ## Project Motivation
 
 This project is being done as a part of the Udacity Data Scientist Nanodegree. It involves Rank based filtering, Collaborative filtering, and SVD models for recommendations.
 
-## Libraries used:
+## Installations:
 
-1. [Numpy](https://www.numpy.org/)
-2. [Pandas](https://pandas.pydata.org/)
+1. [numpy](https://www.numpy.org/)
+2. [pandas](https://pandas.pydata.org/)
+3. [matplotlib](https://matplotlib.org/)
+4. [pickle](https://docs.python.org/3/library/pickle.html)
+5. [re](https://docs.python.org/3/library/re.html)
+6. [nltk](https://www.nltk.org/)
+7. [scikit-learn](https://scikit-learn.org/stable/)
+8. [jupyter](https://jupyter.org/)
+
+## File Descriptions:
+
+* **Recommendations_with_IBM.ipynb:** Jupyter notebook containing main implementation and analysis.
+* **Recommendations_with_IBM.html:** A copy of Recommendations_with_IBM.ipynb in html format.
+* **user-item-interactions.csv:** Csv file with user-item interactions.
+* **articles_community.csv:** Csv file with indexed items.
 
 ## The Process:
 
-The process has 5 steps:
+The process had 5 steps:
 
 1. Exploratory Data Analysis
 2. Rank Based Recommendations
